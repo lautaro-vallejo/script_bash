@@ -1,0 +1,13 @@
+# Función para eliminar archivos temporales
+function limpiar_temporales {
+    echo "Verificando archivos temporales y caché..."
+    espacio_ocupado=$(du -sh ~/.cache | cut -f1)  # Espacio ocupado antes de la limpieza
+    echo "Espacio ocupado por archivos temporales: $espacio_ocupado"
+
+    echo "Eliminando archivos temporales y caché..."
+    sudo apt clean
+    rm -rf ~/.cache/*
+    
+    espacio_liberado=$(du -sh ~/.cache 2>/dev/null | cut -f1)  # Espacio ocupado después
+    echo "Archivos temporales eliminados. Espacio liberado: $espacio_liberado"
+}
