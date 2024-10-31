@@ -13,4 +13,24 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///media/lau/KINGSTON/ooo.txt" added="2024-10-31T21:30:46.471919Z" modified="2024-10-31T21:32:15.487441Z" visited="2024-10-31T21:30:46.471920Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-31T21:32:15.487419Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/lau/KINGSTON/laaaa.txt" added="2024-10-31T21:40:38.926740Z" modified="2024-10-31T21:40:38.926747Z" visited="2024-10-31T21:40:38.926741Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;gnome-text-editor %U&apos;" modified="2024-10-31T21:40:38.926744Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

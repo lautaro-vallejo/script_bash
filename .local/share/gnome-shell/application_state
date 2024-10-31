@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="org.gnome.Nautilus.desktop" score="4" last-seen="1730408544"/>
-    <application id="org.gnome.TextEditor.desktop" score="4" last-seen="1730408553"/>
+    <application id="org.gnome.Nautilus.desktop" score="7" last-seen="1730410841"/>
+    <application id="org.gnome.TextEditor.desktop" score="7" last-seen="1730410848"/>
     <application id="gnome-initial-setup.desktop" score="1" last-seen="1730397640"/>
-    <application id="org.gnome.Terminal.desktop" score="1503" last-seen="1730408525"/>
+    <application id="org.gnome.Terminal.desktop" score="1821" last-seen="1730410833"/>
   </context>
 </application-state>

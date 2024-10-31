@@ -3,20 +3,38 @@
       xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
       xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
 >
-  <bookmark href="file:///home/lau/Desktop/lau.txt" added="2024-10-31T18:01:22.562377Z" modified="2024-10-31T21:02:26.977943Z" visited="2024-10-31T21:02:23.624919Z">
+  <bookmark href="file:///home/lau/Desktop/lau.txt" added="2024-10-31T18:01:22.562377Z" modified="2024-10-31T21:40:31.554119Z" visited="2024-10-31T21:32:16.821366Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-31T21:02:26.977943Z" count="5"/>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-31T21:40:31.554118Z" count="11"/>
         </bookmark:applications>
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///media/lau/KINGSTON/lll.txt" added="2024-10-31T21:02:26.977936Z" modified="2024-10-31T21:02:26.977940Z" visited="2024-10-31T21:02:24.097165Z">
+  <bookmark href="file:///media/lau/KINGSTON/lll.txt" added="2024-10-31T21:02:26.977936Z" modified="2024-10-31T21:40:31.554115Z" visited="2024-10-31T21:32:16.846476Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-31T21:02:26.977939Z" count="1"/>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-31T21:40:31.554112Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/lau/KINGSTON/ooo.txt" added="2024-10-31T21:30:49.964057Z" modified="2024-10-31T21:40:48.924983Z" visited="2024-10-31T21:40:40.237862Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-31T21:40:48.924983Z" count="7"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///media/lau/KINGSTON/laaaa.txt" added="2024-10-31T21:40:41.997741Z" modified="2024-10-31T21:40:48.924981Z" visited="2024-10-31T21:40:40.231109Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gnome-text-editor" exec="&apos;gnome-text-editor %u&apos;" modified="2024-10-31T21:40:48.924978Z" count="2"/>
         </bookmark:applications>
       </metadata>
     </info>
