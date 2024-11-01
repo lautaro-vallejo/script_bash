@@ -1,4 +1,4 @@
-# ![Titulo](banner.png)
+# ![Titulo]
 
 ## Descripción
 
