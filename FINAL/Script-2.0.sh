@@ -20,8 +20,9 @@ function actualizar_sistema {
     sudo apt update
     echo "Instalando actualizaciones disponibles..."
     sudo apt list --upgradable
-    read -p "Desea proceder con la actualizacion? (s/n): " confirmacion
-    if [[ "$confirmacion" == "s" ]]; then
+    read -p "Desea proceder con la actualizacion? (si/no): " confirmacion
+    if [[ "${confirmacion,,}" == "si" ]]; then
+
         sudo apt upgrade -y
         echo "Actualizaciones instaladas."
     else
@@ -40,19 +41,33 @@ function limpiar_temporales {
     df -h
 }
 
-while true; do
+opcion=0
+
+ while [ $opcion -ne 4 ]; do
+
     echo -e "\n=== Menu de Automatizacion ==="
+
     echo "1. Generar informe de uso del sistema"
+
     echo "2. Actualizar el sistema"
+
     echo "3. Limpiar archivos temporales"
+
     echo "4. Salir"
+
     read -p "Seleccione una opcion: " opcion
 
     case $opcion in
+
         1) generar_informe ;;
+
         2) actualizar_sistema ;;
+
         3) limpiar_temporales ;;
+
         4) echo "Saliendo..."; exit 0 ;;
+
         *) echo "Opcion no valida. Intente de nuevo." ;;
+
     esac
 done
